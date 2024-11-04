@@ -9,7 +9,11 @@ public class MultiplicationTable : MonoBehaviour
     {
         for (int i = 1; i <= 10; i++)
         {
-            Debug.Log(5 + " x " + i + " = " + Multiply(i, 5));
+            for (int j = 1; j <= 10; j++)
+            {
+                Debug.Log(i + " x " + j + " = " + Multiply(i, j));
+            }
+
         }
 
     }
