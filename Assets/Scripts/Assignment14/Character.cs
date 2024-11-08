@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Character
 {
-    private string name = "Zarifeh";
-    int health = 100;
+    private string name;
+        int health;
     public string Name
     {
         get { return name; }
