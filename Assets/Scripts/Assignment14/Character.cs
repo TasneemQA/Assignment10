@@ -1,24 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Character
+namespace Assignment14
 {
-    private string name;
-        int health;
-    public string Name
+    public class Character
     {
-        get { return name; }
-        set { name = value; }
-    }
-    public int Health
-    {
-        get { return health; }
-        set { health = value; }
-    }
-    public Character(string name, int health)
-    {
-        this.name = name;
-        this.health = health;
+        private string name;
+        private int health;
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        public int Health
+        {
+            get { return health; }
+            set { health = value; }
+        }
+        public Character(string name, int health)
+        {
+            this.name = name;
+            this.health = health;
+        }
     }
 }
