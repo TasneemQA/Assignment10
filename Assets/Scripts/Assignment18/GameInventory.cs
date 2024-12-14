@@ -13,8 +13,8 @@ namespace Assignment18
             potions.AddItem("Strength Potion");
 
             Inventory elixirs = new Inventory();
-            potions.AddItem("Elixir");
-            potions.AddItem("Dark Elixir");
+            elixirs.AddItem("Elixir");
+            elixirs.AddItem("Dark Elixir");
             Inventory combinedInventory = potions + elixirs;
             combinedInventory.ShowItems();
         }
